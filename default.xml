@@ -171,7 +171,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="SuperiorIrkenOrgans/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/Superuser" name="SuperiorIrkenOrgans/android_packages_apps_Superuser" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
