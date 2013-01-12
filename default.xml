@@ -6,12 +6,14 @@
 
   <remote  name="github"
            fetch="http://github.com/"
-           review="review.cyanogenmod.com" />
+           review="review.cyanogenmod.org" />
 
   <default revision="gingerbread"
-           remote="github" />
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
-  <project path="build" name="Earthnfire78/android_build">
+  <project path="build" name="SuperiorIrkenOrgans/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -147,9 +149,9 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="CMOptimus/android_packages_apps_Camera" />
+  <project path="packages/apps/Camera" name="SuperiorIrkenOrgans/android_packages_apps_Camera" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" />
+  <project path="packages/apps/CMParts" name="SuperiorIrkenOrgans/android_packages_apps_CMParts" />
   <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
@@ -171,7 +173,7 @@
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
-  <project path="packages/apps/Superuser" name="CMOptimus/android_packages_apps_Superuser" />
+  <project path="packages/apps/Superuser" name="SuperiorIrkenOrgans/android_packages_apps_Superuser" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
@@ -189,15 +191,15 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
-  <project path="system/bluetooth" name="CMOptimus/android_system_bluetooth" />
+  <project path="system/bluetooth" name="SuperiorIrkenOrgans/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/su" name="CMOptimus/android_system_su" />
+  <project path="system/su" name="SuperiorIrkenOrgans/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-  <project path="vendor/cyanogen" name="CMOptimus/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="SuperiorIrkenOrgans/android_vendor_cyanogen" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -206,12 +208,12 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="CMOptimus/android" />
+  <project path="android" name="SuperiorIrkenOrgans/android" />
 
-  <project path="device/lge/thunderc_common" name="CMOptimus/android_device_lge_thunderc_common" />
-  <project path="device/lge/thunderc_VS660" name="CMOptimus/android_device_lge_thunderc_VS660" />
-  <project path="device/lge/thunderc_LS670" name="CMOptimus/android_device_lge_thunderc_LS670" />
-  <project path="device/lge/thunderc_VM670" name="CMOptimus/android_device_lge_thunderc_VM670" />
-  <project path="device/lge/thunderc_MS690" name="CMOptimus/android_device_lge_thunderc_MS690" />
-  <project path="vendor/lge" name="CMOptimus/vendor_lge_thunderc" />
+  <project path="device/lge/thunderc_common" name="SuperiorIrkenOrgans/android_device_lge_thunderc_common" />
+  <project path="device/lge/thunderc_VS660" name="SuperiorIrkenOrgans/android_device_lge_thunderc_VS660" />
+  <project path="device/lge/thunderc_LS670" name="SuperiorIrkenOrgans/android_device_lge_thunderc_LS670" />
+  <project path="device/lge/thunderc_VM670" name="SuperiorIrkenOrgans/android_device_lge_thunderc_VM670" />
+  <project path="device/lge/thunderc_MS690" name="SuperiorIrkenOrgans/android_device_lge_thunderc_MS690" />
+  <project path="vendor/lge" name="SuperiorIrkenOrgans/vendor_lge_thunderc" />
 </manifest>
