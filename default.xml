@@ -13,7 +13,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SuperiorIrkenOrgans/android_build">
+  <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" />
